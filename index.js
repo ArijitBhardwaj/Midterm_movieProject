@@ -4,10 +4,6 @@ const API_upcoming_URL = 'https://api.themoviedb.org/3/movie/upcoming?api_key=4a
 
 let topmovieInfo = [];
 
-function showDialogue(){
-    alert(data.overview);
-}
-
 
 async function getTopRatedInfo(){
     try{const data = await fetch (API_toprated_URL);
